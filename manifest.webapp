@@ -1,0 +1,20 @@
+{
+    "version": "1.0",
+    "name": "Sockeye",
+    "launch_path": "/index.html",
+    "description": "A pacific salmon identification guide",
+    "icons": {
+        "16": "/logo/logo16.png",
+        "32": "/logo/logo32.png",
+        "48": "/logo/logo48.png",
+        "60": "/logo/logo60.png",
+        "64": "/logo/logo64.png",
+        "128": "/logo/logo128.png"
+    },
+    "developer": {
+        "name": "Aras Balali Moghaddam",
+        "url": "http://arasbm.com"
+    },
+    "installs_allowed_from": ["*"],
+    "default_locale": "en"
+}
