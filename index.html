@@ -9,12 +9,109 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <x-deck selected-index="1" id="deck">
-        <x-card>card 0</x-card>
-        <x-card>1st card</x-card>
-        <x-card>2nd card ....</x-card>
-    </x-deck>
+    <x-slidebox id="slide-box">
+      <x-slides>
+        <x-slide>
+          <x-layout>
+          <header>
+            Chinook (King)
+          </header>
+          <section>
+            Also known as spring Salmon. Here is how to identify this fish
+          </section>
+          <footer>
+          </footer>
+          </x-layout>
+        </x-slide>
 
+        <x-slide>
+          <x-layout>
+          <header>
+            Coho (silver)
+          </header>
+          <section>
+            Here is how to identify this fish
+          </section>
+          <footer>
+          </footer>
+          </x-layout>
+        </x-slide>
+
+        <x-slide>
+          <x-layout>
+          <header>
+            Pink (humpy)
+          </header>
+          <section>
+            Here is how to identify this fish
+          </section>
+          <footer>
+          </footer>
+          </x-layout>
+        </x-slide>
+
+        <x-slide>
+          <x-layout>
+          <header>
+            Pacific Salmon
+          </header>
+          <section>
+            <ul id="index-list">
+              <li>Chinook</li>
+              <li>Coho</li>
+              <li>Pink</li>
+              <li>Chum</li>
+              <li>Sockeye</li>
+              <li>Steelhead</li>
+            </ul> 
+          </section>
+          <footer>
+          </footer>
+          </x-layout>
+        </x-slide>
+
+        <x-slide>
+          <x-layout>
+          <header>
+            Chum (dog)
+          </header>
+          <section>
+            Here is how to identify this fish
+          </section>
+          <footer>
+          </footer>
+          </x-layout>
+        </x-slide>
+
+        <x-slide>
+          <x-layout>
+          <header>
+            Sockeye (red)
+          </header>
+          <section>
+            Here is how to identify this fish
+          </section>
+          <footer>
+          </footer>
+          </x-layout>
+        </x-slide>
+
+        <x-slide>
+          <x-layout>
+          <header>
+            Steelhead 
+          </header>
+          <section>
+            Steelhead is NOT a salmon species. However, ...
+            Here is how to identify this fish
+          </section>
+          <footer>
+          </footer>
+          </x-layout>
+        </x-slide>
+
+      </x-slides> 
+    </x-slidebox>
     <script type="text/javascript" src="lib/brick-1.0beta6.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
   </body>

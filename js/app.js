@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded',function(){
-  var deck = document.getElementById("deck");
+  var deck = document.getElementById("slide-box");
   deck.addEventListener("click", function(){
-    deck.shuffleNext();
+    deck.slideNext();
   });
 });
