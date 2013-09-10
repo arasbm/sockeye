@@ -14,7 +14,12 @@ ul#index-list li {
   background-position: center;
   background-repeat: no-repeat;
   margin: 1px;
-  padding: 1.5em;
+  text-shadow:1px 1px 1px rgba(3,112,255,1);
+  font-weight:bold;
+  color: black;
+  text-align: center;
+  font-family:helvetica, sans-serif;
+  font-size: 2.5em;
 }
 
 li#goto-chinook {
@@ -38,7 +43,7 @@ li#goto-sockeye {
 }
 
 li#goto-steelhead {
-  background-image: url("../img/index/stealhead.png");
+  background-image: url("../img/index/steelhead.png");
 }
 
 
